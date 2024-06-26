@@ -1,0 +1,319 @@
+    1  cat /home/student/.ssh/authorized_keys
+    2  cd .ssh
+    3  ls
+    4  cat id_rsa
+    5  cat id_rsa.pub 
+    6  cd
+    7  ssh-copy-id student2@172.16.200.130
+    8  ssh -l student2 172.16.200.130
+    9  ifconfig
+   10  ls
+   11  ls -al
+   12  whoami
+   13  exit
+   14  man ssh
+   15  exit
+   16  man ssh
+   17  apropos copy keys
+   18  man sftp
+   19  exit
+   20  ifconfig color
+   21  ifconfig
+   22  sudo ip addr add 172.16.200.130/24 dev ens160
+   23  sudo ip link set ens160 up
+   24  ping 172.16.200.130
+   25  passwd
+   26  man tar
+   27  man ./script.sh
+   28  man bzip
+   29  ssh student2@172.16.200.130
+   30  sudo systemctl status sshd
+   31  ssh-keygen
+   32  ssh-copy-id student2@172.16.200.130
+   33  ssh student2@172.16.200.130
+   34  sudo firewall-cmd --add-port=22/tcp
+   35  sudo firewall-cmd --reload
+   36  sudo firewall-cmd --add-port=22/tcp --permanent
+   37  sudo firewall-cmd --reload
+   38  sudo firewall-cmd --list-all
+   39  ssh student2@172.16.200.130
+   40  sudo firewall-cmd --add-service=ssh --permanent
+   41  sudo vi /etc/ssh/sshd_config
+   42  ssh devapp01
+   43  ssh 172.16.200.130
+   44  ifconfig
+   45  ls -al
+   46  ifconfig
+   47  ls
+   48  vim SENDTHIS
+   49  ls
+   50  scp SENDTHIS student2@172.16.200.129:~
+   51  ifconfig
+   52  scp SENDTHIS student2@172.16.200.130:~
+   53  ssh student@172.16.200.130
+   54  ls
+   55  ls ~/.ssh/
+   56  cd /ssh
+   57  cd /.ssh
+   58  scp SENDTHIS student2@172.16.200.130:~
+   59  ssh-copy-id ~/.ssh/id_rsa.pub student2@172.16.200.130
+   60  ssh-copy-id -i ~/.ssh/id_rsa.pub student2@172.16.200.130
+   61  cd ~/.ssh/
+   62  ls
+   63  cat known_hosts
+   64  vim /home/student/known_hosts
+   65  vim /known_hosts
+   66  pwed
+   67  pwd
+   68  vim known_hosts
+   69  cat authorized_keys 
+   70  ssh student@172.16.200.130
+   71  ssh student2@172.16.200.130
+   72  ls
+   73  cd ../..
+   74  ls
+   75  cd
+   76  ls
+   77  scp SENDTHIS student2@172.16.200.130:~
+   78  cat ~/.ssh/known_hosts
+   79  ls
+   80  mv SENDTHIS SENTTHIS
+   81  ls
+   82  cat practice_using_at.txt 
+   83  which hello
+   84  which which
+   85  cd /etc
+   86  ls -al
+   87  cd ..
+   88  cd /bin
+   89  ls -l
+   90  history
+   91   cd .ssh
+   92  cd ~/.ssh/
+   93  ls
+   94  cat authorized_keys 
+   95  cat known_hosts
+   96  ssh student2@172.16.200.130
+   97  ls
+   98  cd ~
+   99  su passwd
+  100  su - passwd
+  101  su root passwd
+  102  passws su
+  103  passwd su
+  104  su - 
+  105  export release=RHEL
+  106  cat /etc/fedora-release
+  107  sudo yum instal -y yum-utils
+  108  yum install 'duf-command(instal)
+  109  yum install
+  110  su - root
+  111  ifconfig
+  112  ls
+  113  mkdir Sharedfiles
+  114  ls
+  115  cd Sharedfiles/
+  116  echo Lets put this file into the other vm student2 > its4student2
+  117  ls
+  118  cat its4student2 
+  119  ../..
+  120  cd ../..
+  121  git clone https://github.com/hashicorp/learn-terraform-modules-use.git
+  122  terraform version
+  123  su
+  124  su - 
+  125  whoami
+  126  id
+  127  su -
+  128  sudo passwd root
+  129  whoami
+  130  su -
+  131  ip link show
+  132  ip -s link show
+  133  ip addr show
+  134  ip a
+  135  ping 127.0.0.10
+  136  cd /etc/sysconfig/
+  137  cd /network-scripts/
+  138  ls
+  139  cd network-scripts/
+  140  ls
+  141  vim readme-ifcfg-rh.txt 
+  142  nmcli connection 
+  143  nmcli connection show
+  144  su - root
+  145  mkdir /repo
+  146  sudo mkdir /repo
+  147  ls
+  148  PS1="[\d \t \u@\h:\w ] $ "
+  149  PS1="[\d \t \u@\h:\w ]$ "
+  150  ll
+  151  uname
+  152  uname -r
+  153  udevamin
+  154  lsblk
+  155  lscpu
+  156  lsmem --summary
+  157  free -m
+  158  lshw
+  159  sudo lshw
+  160  systemctl get-default
+  161  ls -ltr /etc/systemd/system/default.target
+  162  man rpm
+  163  yum repolist
+  164  sudo yum update
+  165  man rpm
+  166  rpm -qa
+  167  man rpm
+  168  sudo yum -ivh cmatrix
+  169  sudo yup install 'dnf-command(cmatrix)'
+  170  sudo yum install 'dnf-command(cmatrix)'
+  171  man cmatrix
+  172  ip addr
+  173  sudo -i
+  174  su
+  175  sudoedit /etc/shadow
+  176  history
+  177  sudo $EDITOR /etc/shadow
+  178  sudo $EDITOR etc/shadow
+  179  su
+  180  reboot
+  181  vi numbered.txt
+  182  vim +3 numbered.txt 
+  183  vim +5 numbered.txt 
+  184  which at
+  185  dnf install at
+  186  sudo dnf install at
+  187  sudo dnf install atping 8.8.8.8
+  188   ping 8.8.8.8
+  189  nmtui
+  190   ping 8.8.8.8
+  191   traceroute 8.8.8.8
+  192   traceroute google.com
+  193  at 05:00
+  194  atq
+  195  at 10:26
+  196  atq
+  197  at -c
+  198  man at
+  199  atq -b
+  200  batch
+  201  atq
+  202  clear
+  203  reboot
+  204  man 2<
+  205  ls
+  206  touch test_file1
+  207  touch test_file2 test_file3 test_file4
+  208  ;s
+  209  ls
+  210  ls -al | grep files
+  211  ls -al | grep file
+  212  clear
+  213  ps aux | grep ssh
+  214  ps aux | grep ssh | grep -v grep
+  215  ls -al
+  216  ls -al | grep file
+  217  ls -al | grep file | grep -v 1 2 3
+  218  ls -al | grep file | grep -v 1
+  219  ls -al | grep file | grep -v file1
+  220  ls -al | grep file | grep -v file1 file2 file3
+  221  ls -al | grep file | grep -v file1 | grep -v file2
+  222  clear
+  223  grep -A 2 -B 2 Allow /etc/ssh/sshd_config
+  224  sudo grep -A 2 -B 2 Allow /etc/ssh/sshd_config
+  225  echo $SHELL > shell.txt
+  226  cat shell.txt
+  227  cat missing_file 2> error.txt
+  228  cat error.txt
+  229  cat missing_file 2>> shell.txt
+  230  cat schell.txt
+  231  cat shell.txt
+  232  echo $SHELL | teeclear
+  233  clear
+  234  man multiuser
+  235  man target
+  236  cat /etc/passwd
+  237  clear
+  238  tee /etc/passwd
+  239  sudo tee /etc/passwd
+  240  cat /etc/passwd
+  241  whoami
+  242  ls
+  243  su
+  244  Patrick#144
+  245  su
+  246  cd
+  247  ls
+  248  mkdir archives
+  249  cd archives/
+  250  touch file{1,2,3}
+  251  mkdir dir1 dir2
+  252  ls
+  253  star -c -f=newstararchive.star dir1 dir2 file1 file2 file3
+  254  sudo dnf install star
+  255  man star
+  256  mandb
+  257  sudo mandb
+  258  sudo dnf install star
+  259  ls
+  260  man gzip
+  261  gzip dir1 dir2 file1 file2 file3
+  262  ls
+  263  gunzip file1.gz
+  264  ls
+  265  gunzip file2.gz file3.gz
+  266  ls
+  267  cd dir1
+  268  touch file01
+  269  cd ..
+  270  cd dir2 
+  271  touch file02
+  272  cd ..
+  273  can tar
+  274  dfn install tar
+  275  dnf install tar
+  276  sudo dnf install tar
+  277  man tar
+  278  ls
+  279  tar cvf newtararchive.tar file1 file2 file3 dir1 dir2
+  280  ls
+  281  rm -rf dir1 dir2 file1 file2 file3
+  282  ls
+  283  tar -tf newtararchive.tar 
+  284  ls
+  285  tar -xvf newtararchive.tar 
+  286  ls
+  287  rm -f newtararchive.tar 
+  288  ls
+  289  tar -cvzf newcompressedarchive.gz dir1 dir2 file1 file2 file3 
+  290  ls
+  291  rm -rf dir1 dir2 file1 file2 file3 
+  292  ls
+  293  tar -xzvf newcompressedarchive.gz
+  294  ls
+  295  rm -f newcompressedarchive.gz 
+  296  ls
+  297  man bzip
+  298  man bzip2
+  299  ls
+  300  bzip2 dir1
+  301  bzip2 file1
+  302  ls
+  303  bzip2 -d file1.bz2
+  304  ls
+  305  man tar
+  306  tar cvjf newarchive.bz2 dir1 dir2 file1 file2 file3
+  307  ls
+  308  rm -rf dir1 dir2 file1 file2 file3
+  309  ls
+  310  tar -tf newarchive.bz2
+  311  ls
+  312  tar -xjvf newarchive.bz2
+  313  ls
+  314  rm -f newarchive.bz2 
+  315  ls
+  316  history > 6-25-24_archive
+  317  ls
+  318  cd ~
+  319  history > 6-25-24_archive.txt
