@@ -241,7 +241,6 @@
   241  whoami
   242  ls
   243  su
-  244  Patrick#144
   245  su
   246  cd
   247  ls
