@@ -1,0 +1,20 @@
+Study Session with the team
+went over LMVS on KodeKloud and Wizlabs
+discussed and practiced the commands
+pvs lists the current physical volume
+vgs lists the current groups
+sudo pvcreate /dev/sdc /dev/sdd
+sudo vgcreate my_volume /dev/sdc /dev/sdd
+sudo vgreduce my_volume /dev/sdc
+sudo pvremove /dev/sde
+sudo lvcreate --size 2G --name partition1 my_volume
+sudo lvresize --extents 100%VG my_volume/partition1
+sudo lvresize --size 2G my_volume/partition1
+lvdisplay
+sudo mkfs.xfs /dev/my_volume/partition1
+sudo lvresize --resizefsx --size 3G my_volume/partition1
+man lvm on the test if needed
+
+
+
+
