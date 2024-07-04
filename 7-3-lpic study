@@ -1,0 +1,15 @@
+Lpic kode kloud study
+System architecture
+BIOS/UEFI - firmwere systems, both provide a POST
+BIOS - Basic Input/Output System
+UEFI - Unified Exrensible Firmware Interface
+POST - Power-On Self Test, runs basic checks on the BIOS, CPU and memory to make sure they are ready to go before allowing thr boot process to start.
+both systems allow user to access the Configuration Utility by pressing delete, F12, or F2 during the startup process.
+In the Configuration Utility you can 
+  Set the date and time for the hardware clock
+  Disable or enable integrated peripherals like built-in LAN and sound devices. Configure error protection, like ECC, Error Correction and Control RAM
+what talks and training search on linkedin twitter to see who will be going 
+if i find someone hit them up before we get there, know star method 
+talk to folks, go to networking events, happyhour events, 
+virtual card, have resume ready to go, what else is going on in the area. 
+
