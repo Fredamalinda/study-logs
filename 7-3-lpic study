@@ -8,5 +8,8 @@ both systems allow user to access the Configuration Utility by pressing delete, 
 In the Configuration Utility you can 
   Set the date and time for the hardware clock
   Disable or enable integrated peripherals like built-in LAN and sound devices. Configure error protection, like ECC, Error Correction and Control RAM
-
-
+  Configure error protection like ECC, Error Correction and Control RAM
+  Change hardware settings like IRQs and DMA (IRQs means inturrupts requests and DMA means Direct Memory Access.)
+  Choose the order of boot devices
+Two ways you can inspect the devices/hardware resources in linux. First, you can use LSPCI or LSUSB
+sudo lspci  - this will show all of the devices that are connected to the Peripheral Component Interconnect bus 
