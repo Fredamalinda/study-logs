@@ -12,4 +12,37 @@ In the Configuration Utility you can
   Change hardware settings like IRQs and DMA (IRQs means inturrupts requests and DMA means Direct Memory Access.)
   Choose the order of boot devices
 Two ways you can inspect the devices/hardware resources in linux. First, you can use LSPCI or LSUSB
-sudo lspci  - this will show all of the devices that are connected to the Peripheral Component Interconnect bus 
+$ sudo lspci       -this will show all of the devices that are connected to the Peripheral Component Interconnect bus 
+$ sudo lspci -s 00:03.0 -v    
+$ sudo lspci -s 00:03.0 -k    
+$ sudo lsusb
+$ sudo lsusb -v -d 1781:0c9f
+$ sudo lsusb -t
+$ sudo lsusb -s 01:20
+$ sudo lsmod
+$ sudo lsmod | fgrep -i snd
+$ sudo modprobe -r snd-hda-intel
+$ sudo modinfo snd
+$ sudo modinfo -p snd
+ /proc
+/sys
+Special directories that exist in RAM
+Used by the kernel to store information on running processes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
